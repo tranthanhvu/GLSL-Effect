@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class iCoreGUIController;
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) iCoreGUIController *mainGUIController;
 
++(iCoreGUIController*)shareMainGUIController;
 @end

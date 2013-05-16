@@ -16,6 +16,18 @@
 		BE1BEFD21744D54100F39046 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFD11744D54100F39046 /* Default.png */; };
 		BE1BEFD41744D54100F39046 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFD31744D54100F39046 /* Default@2x.png */; };
 		BE1BEFD61744D54100F39046 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFD51744D54100F39046 /* Default-568h@2x.png */; };
+		BE1BEFDE1744DD2E00F39046 /* iCoreGUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFDD1744DD2E00F39046 /* iCoreGUIController.m */; };
+		BE1BEFE11744E2E100F39046 /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFE01744E2E100F39046 /* OpenGLView.m */; };
+		BE1BEFE41744E32100F39046 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1BEFE21744E31600F39046 /* OpenGLES.framework */; };
+		BE1BEFE61744E3F300F39046 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1BEFE51744E3F300F39046 /* QuartzCore.framework */; };
+		BE1BEFF21744E5FA00F39046 /* CC3Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFE91744E5FA00F39046 /* CC3Foundation.m */; };
+		BE1BEFF31744E5FA00F39046 /* CC3GLMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFEB1744E5FA00F39046 /* CC3GLMatrix.m */; };
+		BE1BEFF41744E5FA00F39046 /* CC3Kazmath.c in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFEC1744E5FA00F39046 /* CC3Kazmath.c */; };
+		BE1BEFF51744E5FA00F39046 /* CC3Math.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFF01744E5FA00F39046 /* CC3Math.m */; };
+		BE1BEFF91744E75000F39046 /* SimpleFragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFF71744E75000F39046 /* SimpleFragment.glsl */; };
+		BE1BEFFA1744E75000F39046 /* SimpleVertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFF81744E75000F39046 /* SimpleVertex.glsl */; };
+		BE1BEFFE1744F0CC00F39046 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFFC1744F0CC00F39046 /* MyViewController.m */; };
+		BE1BEFFF1744F0CC00F39046 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFFD1744F0CC00F39046 /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,27 @@
 		BE1BEFD11744D54100F39046 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BE1BEFD31744D54100F39046 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BE1BEFD51744D54100F39046 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE1BEFDC1744DD2E00F39046 /* iCoreGUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCoreGUIController.h; sourceTree = "<group>"; };
+		BE1BEFDD1744DD2E00F39046 /* iCoreGUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCoreGUIController.m; sourceTree = "<group>"; };
+		BE1BEFDF1744E2E100F39046 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		BE1BEFE01744E2E100F39046 /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		BE1BEFE21744E31600F39046 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BE1BEFE51744E3F300F39046 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BE1BEFE81744E5FA00F39046 /* CC3Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Foundation.h; sourceTree = "<group>"; };
+		BE1BEFE91744E5FA00F39046 /* CC3Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Foundation.m; sourceTree = "<group>"; };
+		BE1BEFEA1744E5FA00F39046 /* CC3GLMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3GLMatrix.h; sourceTree = "<group>"; };
+		BE1BEFEB1744E5FA00F39046 /* CC3GLMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3GLMatrix.m; sourceTree = "<group>"; };
+		BE1BEFEC1744E5FA00F39046 /* CC3Kazmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CC3Kazmath.c; sourceTree = "<group>"; };
+		BE1BEFED1744E5FA00F39046 /* CC3Kazmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Kazmath.h; sourceTree = "<group>"; };
+		BE1BEFEE1744E5FA00F39046 /* CC3Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Logging.h; sourceTree = "<group>"; };
+		BE1BEFEF1744E5FA00F39046 /* CC3Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CC3Math.h; sourceTree = "<group>"; };
+		BE1BEFF01744E5FA00F39046 /* CC3Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CC3Math.m; sourceTree = "<group>"; };
+		BE1BEFF11744E5FA00F39046 /* ccTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccTypes.h; sourceTree = "<group>"; };
+		BE1BEFF71744E75000F39046 /* SimpleFragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragment.glsl; sourceTree = "<group>"; };
+		BE1BEFF81744E75000F39046 /* SimpleVertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertex.glsl; sourceTree = "<group>"; };
+		BE1BEFFB1744F0CC00F39046 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BE1BEFFC1744F0CC00F39046 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		BE1BEFFD1744F0CC00F39046 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1BEFE61744E3F300F39046 /* QuartzCore.framework in Frameworks */,
+				BE1BEFE41744E32100F39046 /* OpenGLES.framework in Frameworks */,
 				BE1BEFC01744D54100F39046 /* UIKit.framework in Frameworks */,
 				BE1BEFC21744D54100F39046 /* Foundation.framework in Frameworks */,
 				BE1BEFC41744D54100F39046 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +103,8 @@
 		BE1BEFBE1744D54100F39046 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE1BEFE51744E3F300F39046 /* QuartzCore.framework */,
+				BE1BEFE21744E31600F39046 /* OpenGLES.framework */,
 				BE1BEFBF1744D54100F39046 /* UIKit.framework */,
 				BE1BEFC11744D54100F39046 /* Foundation.framework */,
 				BE1BEFC31744D54100F39046 /* CoreGraphics.framework */,
@@ -78,9 +115,18 @@
 		BE1BEFC51744D54100F39046 /* GLSL-Effect */ = {
 			isa = PBXGroup;
 			children = (
+				BE1BEFF61744E75000F39046 /* Shader */,
+				BE1BEFE71744E5FA00F39046 /* Cocos3DMathLib */,
 				BE1BEFCE1744D54100F39046 /* AppDelegate.h */,
 				BE1BEFCF1744D54100F39046 /* AppDelegate.m */,
 				BE1BEFC61744D54100F39046 /* Supporting Files */,
+				BE1BEFDC1744DD2E00F39046 /* iCoreGUIController.h */,
+				BE1BEFDD1744DD2E00F39046 /* iCoreGUIController.m */,
+				BE1BEFFB1744F0CC00F39046 /* MyViewController.h */,
+				BE1BEFFC1744F0CC00F39046 /* MyViewController.m */,
+				BE1BEFFD1744F0CC00F39046 /* MyViewController.xib */,
+				BE1BEFDF1744E2E100F39046 /* OpenGLView.h */,
+				BE1BEFE01744E2E100F39046 /* OpenGLView.m */,
 			);
 			path = "GLSL-Effect";
 			sourceTree = "<group>";
@@ -97,6 +143,32 @@
 				BE1BEFD51744D54100F39046 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1BEFE71744E5FA00F39046 /* Cocos3DMathLib */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFE81744E5FA00F39046 /* CC3Foundation.h */,
+				BE1BEFE91744E5FA00F39046 /* CC3Foundation.m */,
+				BE1BEFEA1744E5FA00F39046 /* CC3GLMatrix.h */,
+				BE1BEFEB1744E5FA00F39046 /* CC3GLMatrix.m */,
+				BE1BEFEC1744E5FA00F39046 /* CC3Kazmath.c */,
+				BE1BEFED1744E5FA00F39046 /* CC3Kazmath.h */,
+				BE1BEFEE1744E5FA00F39046 /* CC3Logging.h */,
+				BE1BEFEF1744E5FA00F39046 /* CC3Math.h */,
+				BE1BEFF01744E5FA00F39046 /* CC3Math.m */,
+				BE1BEFF11744E5FA00F39046 /* ccTypes.h */,
+			);
+			path = Cocos3DMathLib;
+			sourceTree = "<group>";
+		};
+		BE1BEFF61744E75000F39046 /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFF71744E75000F39046 /* SimpleFragment.glsl */,
+				BE1BEFF81744E75000F39046 /* SimpleVertex.glsl */,
+			);
+			path = Shader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +226,9 @@
 				BE1BEFD21744D54100F39046 /* Default.png in Resources */,
 				BE1BEFD41744D54100F39046 /* Default@2x.png in Resources */,
 				BE1BEFD61744D54100F39046 /* Default-568h@2x.png in Resources */,
+				BE1BEFF91744E75000F39046 /* SimpleFragment.glsl in Resources */,
+				BE1BEFFA1744E75000F39046 /* SimpleVertex.glsl in Resources */,
+				BE1BEFFF1744F0CC00F39046 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +241,13 @@
 			files = (
 				BE1BEFCC1744D54100F39046 /* main.m in Sources */,
 				BE1BEFD01744D54100F39046 /* AppDelegate.m in Sources */,
+				BE1BEFDE1744DD2E00F39046 /* iCoreGUIController.m in Sources */,
+				BE1BEFE11744E2E100F39046 /* OpenGLView.m in Sources */,
+				BE1BEFF21744E5FA00F39046 /* CC3Foundation.m in Sources */,
+				BE1BEFF31744E5FA00F39046 /* CC3GLMatrix.m in Sources */,
+				BE1BEFF41744E5FA00F39046 /* CC3Kazmath.c in Sources */,
+				BE1BEFF51744E5FA00F39046 /* CC3Math.m in Sources */,
+				BE1BEFFE1744F0CC00F39046 /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +362,7 @@
 				BE1BEFDB1744D54100F39046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

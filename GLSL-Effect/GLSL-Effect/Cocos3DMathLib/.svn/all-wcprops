@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib
+END
+ccTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/ccTypes.h
+END
+CC3Foundation.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Foundation.h
+END
+CC3Logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Logging.h
+END
+CC3GLMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3GLMatrix.h
+END
+CC3Math.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Math.h
+END
+CC3Kazmath.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Kazmath.c
+END
+CC3Foundation.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Foundation.m
+END
+CC3GLMatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3GLMatrix.m
+END
+CC3Math.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Math.m
+END
+CC3Kazmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/TagSpace/!svn/ver/3/trunk/TagSpaceAnalysis/HelloOpenGLES/HelloOpenGLES/Cocos3DMathLib/CC3Kazmath.h
+END

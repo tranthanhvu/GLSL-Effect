@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "iCoreGUIController.h"
 
 @implementation AppDelegate
+@synthesize mainGUIController;
 
 - (void)dealloc
 {
@@ -22,6 +24,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    mainGUIController = [[iCoreGUIController alloc] initWithWindow:self.window];
+    [mainGUIController startUp];
+    
     return YES;
 }
 
@@ -52,4 +58,9 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - other
++(iCoreGUIController *)shareMainGUIController {
+    AppDelegate *appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
+    return appDelegate.mainGUIController;
+}
 @end
