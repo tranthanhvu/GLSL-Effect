@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1BEFC01744D54100F39046 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1BEFBF1744D54100F39046 /* UIKit.framework */; };
+		BE1BEFC21744D54100F39046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1BEFC11744D54100F39046 /* Foundation.framework */; };
+		BE1BEFC41744D54100F39046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1BEFC31744D54100F39046 /* CoreGraphics.framework */; };
+		BE1BEFCA1744D54100F39046 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFC81744D54100F39046 /* InfoPlist.strings */; };
+		BE1BEFCC1744D54100F39046 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFCB1744D54100F39046 /* main.m */; };
+		BE1BEFD01744D54100F39046 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1BEFCF1744D54100F39046 /* AppDelegate.m */; };
+		BE1BEFD21744D54100F39046 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFD11744D54100F39046 /* Default.png */; };
+		BE1BEFD41744D54100F39046 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFD31744D54100F39046 /* Default@2x.png */; };
+		BE1BEFD61744D54100F39046 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1BEFD51744D54100F39046 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE1BEFBC1744D54100F39046 /* GLSL-Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GLSL-Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1BEFBF1744D54100F39046 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE1BEFC11744D54100F39046 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE1BEFC31744D54100F39046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE1BEFC71744D54100F39046 /* GLSL-Effect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLSL-Effect-Info.plist"; sourceTree = "<group>"; };
+		BE1BEFC91744D54100F39046 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE1BEFCB1744D54100F39046 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE1BEFCD1744D54100F39046 /* GLSL-Effect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLSL-Effect-Prefix.pch"; sourceTree = "<group>"; };
+		BE1BEFCE1744D54100F39046 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE1BEFCF1744D54100F39046 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE1BEFD11744D54100F39046 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE1BEFD31744D54100F39046 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE1BEFD51744D54100F39046 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1BEFB91744D54100F39046 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1BEFC01744D54100F39046 /* UIKit.framework in Frameworks */,
+				BE1BEFC21744D54100F39046 /* Foundation.framework in Frameworks */,
+				BE1BEFC41744D54100F39046 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1BEFB31744D54100F39046 = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFC51744D54100F39046 /* GLSL-Effect */,
+				BE1BEFBE1744D54100F39046 /* Frameworks */,
+				BE1BEFBD1744D54100F39046 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1BEFBD1744D54100F39046 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFBC1744D54100F39046 /* GLSL-Effect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1BEFBE1744D54100F39046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFBF1744D54100F39046 /* UIKit.framework */,
+				BE1BEFC11744D54100F39046 /* Foundation.framework */,
+				BE1BEFC31744D54100F39046 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1BEFC51744D54100F39046 /* GLSL-Effect */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFCE1744D54100F39046 /* AppDelegate.h */,
+				BE1BEFCF1744D54100F39046 /* AppDelegate.m */,
+				BE1BEFC61744D54100F39046 /* Supporting Files */,
+			);
+			path = "GLSL-Effect";
+			sourceTree = "<group>";
+		};
+		BE1BEFC61744D54100F39046 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1BEFC71744D54100F39046 /* GLSL-Effect-Info.plist */,
+				BE1BEFC81744D54100F39046 /* InfoPlist.strings */,
+				BE1BEFCB1744D54100F39046 /* main.m */,
+				BE1BEFCD1744D54100F39046 /* GLSL-Effect-Prefix.pch */,
+				BE1BEFD11744D54100F39046 /* Default.png */,
+				BE1BEFD31744D54100F39046 /* Default@2x.png */,
+				BE1BEFD51744D54100F39046 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1BEFBB1744D54100F39046 /* GLSL-Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1BEFD91744D54100F39046 /* Build configuration list for PBXNativeTarget "GLSL-Effect" */;
+			buildPhases = (
+				BE1BEFB81744D54100F39046 /* Sources */,
+				BE1BEFB91744D54100F39046 /* Frameworks */,
+				BE1BEFBA1744D54100F39046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLSL-Effect";
+			productName = "GLSL-Effect";
+			productReference = BE1BEFBC1744D54100F39046 /* GLSL-Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1BEFB41744D54100F39046 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = yoyo;
+			};
+			buildConfigurationList = BE1BEFB71744D54100F39046 /* Build configuration list for PBXProject "GLSL-Effect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE1BEFB31744D54100F39046;
+			productRefGroup = BE1BEFBD1744D54100F39046 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1BEFBB1744D54100F39046 /* GLSL-Effect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1BEFBA1744D54100F39046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1BEFCA1744D54100F39046 /* InfoPlist.strings in Resources */,
+				BE1BEFD21744D54100F39046 /* Default.png in Resources */,
+				BE1BEFD41744D54100F39046 /* Default@2x.png in Resources */,
+				BE1BEFD61744D54100F39046 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1BEFB81744D54100F39046 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1BEFCC1744D54100F39046 /* main.m in Sources */,
+				BE1BEFD01744D54100F39046 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE1BEFC81744D54100F39046 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1BEFC91744D54100F39046 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1BEFD71744D54100F39046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1BEFD81744D54100F39046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1BEFDA1744D54100F39046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLSL-Effect/GLSL-Effect-Prefix.pch";
+				INFOPLIST_FILE = "GLSL-Effect/GLSL-Effect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE1BEFDB1744D54100F39046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLSL-Effect/GLSL-Effect-Prefix.pch";
+				INFOPLIST_FILE = "GLSL-Effect/GLSL-Effect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1BEFB71744D54100F39046 /* Build configuration list for PBXProject "GLSL-Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1BEFD71744D54100F39046 /* Debug */,
+				BE1BEFD81744D54100F39046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1BEFD91744D54100F39046 /* Build configuration list for PBXNativeTarget "GLSL-Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1BEFDA1744D54100F39046 /* Debug */,
+				BE1BEFDB1744D54100F39046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1BEFB41744D54100F39046 /* Project object */;
+}
